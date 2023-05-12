@@ -1,0 +1,122 @@
+body  {
+    background-color: #4a7999;
+    color: white;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 12px;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.movies-lis {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    flex-direction: row;
+}
+
+.movie-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 360px;
+    width: 240px;
+    background-color: white;
+    margin-bottom: 16px;
+    margin-right: 12px;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.modal {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    right: 0;
+}
+
+.modal-content {
+    width: 50vw;
+    height: 45vh;
+    background-color: white;
+    border-radius: 12px;
+    padding: 12px;
+    color: black;
+}
+
+
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 260px;
+    height: 25px;
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 12px;
+}
+
+.search-input {
+    border: 0px;
+    width: 98%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.search-button {
+    height: 36px;
+    width: 36px;
+    background-color: white;
+    background-image: url('search.png');
+    background-position: center;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    border: 0px;
+    border-radius: 12px;
+}
